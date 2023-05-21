@@ -1,0 +1,108 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Adidas Login Test",
+        "description": "",
+        "id": "adidas-login;adidas-login-test;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8637955000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "loginStepDefinitions.user_already_on_Login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18415300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "title of login page is adidas Online Shop | adidas CA",
+            "match": {
+              "location": "loginStepDefinitions.title_of_login_page_is_Adidas_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1353894000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"maulik.mech20@gmail.com\" and \"M@ulik@95\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maulik.mech20@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "M@ulik@95",
+                  "offset": 43
+                }
+              ],
+              "location": "loginStepDefinitions.user_enters_email_Password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 358174700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on email login button",
+            "match": {
+              "location": "loginStepDefinitions.user_clicks_on_email_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1524972100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user quit",
+            "match": {
+              "location": "loginStepDefinitions.user_quit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Adidas Login",
+    "description": "",
+    "id": "adidas-login",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@tag"
+      }
+    ]
+  }
+]
